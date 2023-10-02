@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: CuckooSwiftTest/SomeService/IObservableService.swift at 2023-10-02 21:20:12 +0000
+// MARK: - Mocks generated from file: CuckooSwiftTest/SomeService/IObservableService.swift at 2023-10-02 21:27:02 +0000
 
 //
 //  IObservableService.swift
@@ -40,6 +40,22 @@ import RxSwift
     
     
     
+     var someStream: Observable<String> {
+        get {
+            return cuckoo_manager.getter("someStream",
+                superclassCall:
+                    
+                    Cuckoo.MockManager.crashOnProtocolSuperclassCall()
+                    ,
+                defaultCall:  __defaultImplStub!.someStream)
+        }
+        
+    }
+    
+    
+    
+    
+    
      var someString: String {
         get {
             return cuckoo_manager.getter("someString",
@@ -67,6 +83,13 @@ import RxSwift
         
         
         
+        var someStream: Cuckoo.ProtocolToBeStubbedReadOnlyProperty<MockIObservableService, Observable<String>> {
+            return .init(manager: cuckoo_manager, name: "someStream")
+        }
+        
+        
+        
+        
         var someString: Cuckoo.ProtocolToBeStubbedReadOnlyProperty<MockIObservableService, String> {
             return .init(manager: cuckoo_manager, name: "someString")
         }
@@ -89,6 +112,13 @@ import RxSwift
         
         
         
+        var someStream: Cuckoo.VerifyReadOnlyProperty<Observable<String>> {
+            return .init(manager: cuckoo_manager, name: "someStream", callMatcher: callMatcher, sourceLocation: sourceLocation)
+        }
+        
+        
+        
+        
         var someString: Cuckoo.VerifyReadOnlyProperty<String> {
             return .init(manager: cuckoo_manager, name: "someString", callMatcher: callMatcher, sourceLocation: sourceLocation)
         }
@@ -101,6 +131,17 @@ import RxSwift
 
 
  class IObservableServiceStub: IObservableService {
+    
+    
+    
+    
+     var someStream: Observable<String> {
+        get {
+            return DefaultValueRegistry.defaultValue(for: (Observable<String>).self)
+        }
+        
+    }
+    
     
     
     

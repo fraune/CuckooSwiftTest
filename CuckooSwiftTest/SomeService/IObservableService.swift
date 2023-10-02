@@ -9,6 +9,6 @@ import Foundation
 import RxSwift
 
 protocol IObservableService {
-//    var someStream: Observable<String> { get }
+    var someStream: Observable<String> { get }
     var someString: String { get }
 }

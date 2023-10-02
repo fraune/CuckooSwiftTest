@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59BBAD02ACB6C5400875B39 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59BBACF2ACB6C5400875B39 /* GeneratedMocks.swift */; };
 		F5C20E052ACB656000A8E558 /* IObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E042ACB656000A8E558 /* IObservableService.swift */; };
 		F5C20E082ACB65CB00A8E558 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E072ACB65CB00A8E558 /* RxSwift */; };
 		F5C20E0A2ACB65DA00A8E558 /* ObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E092ACB65DA00A8E558 /* ObservableService.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F59BBACF2ACB6C5400875B39 /* GeneratedMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		F5C20E042ACB656000A8E558 /* IObservableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IObservableService.swift; sourceTree = "<group>"; };
 		F5C20E092ACB65DA00A8E558 /* ObservableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableService.swift; sourceTree = "<group>"; };
 		F5C20E0F2ACB67D900A8E558 /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				F5D583DB2ACB644800D0433F /* ObservableServiceTests.swift */,
+				F59BBACF2ACB6C5400875B39 /* GeneratedMocks.swift */,
 			);
 			path = CuckooSwiftTestTests;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D583DC2ACB644800D0433F /* ObservableServiceTests.swift in Sources */,
+				F59BBAD02ACB6C5400875B39 /* GeneratedMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
