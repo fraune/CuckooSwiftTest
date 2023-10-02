@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F59BBAD02ACB6C5400875B39 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59BBACF2ACB6C5400875B39 /* GeneratedMocks.swift */; };
+		F59BBAD22ACB6F1300875B39 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = F59BBAD12ACB6F1300875B39 /* RxBlocking */; };
 		F5C20E052ACB656000A8E558 /* IObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E042ACB656000A8E558 /* IObservableService.swift */; };
 		F5C20E082ACB65CB00A8E558 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E072ACB65CB00A8E558 /* RxSwift */; };
 		F5C20E0A2ACB65DA00A8E558 /* ObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E092ACB65DA00A8E558 /* ObservableService.swift */; };
@@ -66,6 +67,7 @@
 				F5C20E1C2ACB6AE900A8E558 /* Nimble in Frameworks */,
 				F5C20E142ACB6A8B00A8E558 /* Resolver in Frameworks */,
 				F5C20E192ACB6AB900A8E558 /* Cuckoo in Frameworks */,
+				F59BBAD22ACB6F1300875B39 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +183,7 @@
 				F5C20E152ACB6A9B00A8E558 /* RxSwift */,
 				F5C20E182ACB6AB900A8E558 /* Cuckoo */,
 				F5C20E1B2ACB6AE900A8E558 /* Nimble */,
+				F59BBAD12ACB6F1300875B39 /* RxBlocking */,
 			);
 			productName = CuckooSwiftTestTests;
 			productReference = F5D583D72ACB644800D0433F /* CuckooSwiftTestTests.xctest */;
@@ -591,6 +594,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F59BBAD12ACB6F1300875B39 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
 		F5C20E072ACB65CB00A8E558 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */;

@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: CuckooSwiftTest/SomeService/IObservableService.swift at 2023-10-02 21:27:02 +0000
+// MARK: - Mocks generated from file: CuckooSwiftTest/SomeService/IObservableService.swift at 2023-10-02 21:37:34 +0000
 
 //
 //  IObservableService.swift

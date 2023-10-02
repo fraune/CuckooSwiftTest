@@ -10,6 +10,7 @@ import Cuckoo
 import Nimble
 import Resolver
 import RxSwift
+import RxBlocking
 @testable import CuckooSwiftTest
 
 final class ObservableServiceTests: XCTestCase {
@@ -28,7 +29,10 @@ final class ObservableServiceTests: XCTestCase {
             when(stub.someStream.get).thenReturn(Observable.just("dude"))
         }
         
+        // some kind of test that may or may not pass
+        let result = try? observableService.someStream.toBlocking(timeout: .pi).first()
         
+        expect(result).to(equal("dude"))
     }
     
     func test_someString() {
