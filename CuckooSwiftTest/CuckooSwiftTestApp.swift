@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import Resolver
 
 @main
 struct CuckooSwiftTestApp: App {
+    
+    init() {
+        Resolver.registerAllServices()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

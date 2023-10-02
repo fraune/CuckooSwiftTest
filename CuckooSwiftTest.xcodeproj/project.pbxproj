@@ -7,29 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5C20DFE2ACB650200A8E558 /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20DFD2ACB650200A8E558 /* Cuckoo */; };
-		F5C20E012ACB651700A8E558 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E002ACB651700A8E558 /* Nimble */; };
 		F5C20E052ACB656000A8E558 /* IObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E042ACB656000A8E558 /* IObservableService.swift */; };
 		F5C20E082ACB65CB00A8E558 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E072ACB65CB00A8E558 /* RxSwift */; };
 		F5C20E0A2ACB65DA00A8E558 /* ObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E092ACB65DA00A8E558 /* ObservableService.swift */; };
+		F5C20E0E2ACB679900A8E558 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E0D2ACB679900A8E558 /* Resolver */; };
+		F5C20E102ACB67D900A8E558 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E0F2ACB67D900A8E558 /* Injector.swift */; };
+		F5C20E142ACB6A8B00A8E558 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E132ACB6A8B00A8E558 /* Resolver */; };
+		F5C20E162ACB6A9B00A8E558 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E152ACB6A9B00A8E558 /* RxSwift */; };
+		F5C20E192ACB6AB900A8E558 /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E182ACB6AB900A8E558 /* Cuckoo */; };
+		F5C20E1C2ACB6AE900A8E558 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E1B2ACB6AE900A8E558 /* Nimble */; };
 		F5D583CB2ACB644700D0433F /* CuckooSwiftTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583CA2ACB644700D0433F /* CuckooSwiftTestApp.swift */; };
 		F5D583CD2ACB644700D0433F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583CC2ACB644700D0433F /* ContentView.swift */; };
 		F5D583CF2ACB644800D0433F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D583CE2ACB644800D0433F /* Assets.xcassets */; };
 		F5D583D22ACB644800D0433F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D583D12ACB644800D0433F /* Preview Assets.xcassets */; };
-		F5D583DC2ACB644800D0433F /* CuckooSwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583DB2ACB644800D0433F /* CuckooSwiftTestTests.swift */; };
-		F5D583E62ACB644800D0433F /* CuckooSwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583E52ACB644800D0433F /* CuckooSwiftTestUITests.swift */; };
-		F5D583E82ACB644800D0433F /* CuckooSwiftTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583E72ACB644800D0433F /* CuckooSwiftTestUITestsLaunchTests.swift */; };
+		F5D583DC2ACB644800D0433F /* ObservableServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583DB2ACB644800D0433F /* ObservableServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		F5D583D82ACB644800D0433F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F5D583BF2ACB644700D0433F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5D583C62ACB644700D0433F;
-			remoteInfo = CuckooSwiftTest;
-		};
-		F5D583E22ACB644800D0433F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F5D583BF2ACB644700D0433F /* Project object */;
 			proxyType = 1;
@@ -41,16 +36,14 @@
 /* Begin PBXFileReference section */
 		F5C20E042ACB656000A8E558 /* IObservableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IObservableService.swift; sourceTree = "<group>"; };
 		F5C20E092ACB65DA00A8E558 /* ObservableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableService.swift; sourceTree = "<group>"; };
+		F5C20E0F2ACB67D900A8E558 /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
 		F5D583C72ACB644700D0433F /* CuckooSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuckooSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D583CA2ACB644700D0433F /* CuckooSwiftTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooSwiftTestApp.swift; sourceTree = "<group>"; };
 		F5D583CC2ACB644700D0433F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5D583CE2ACB644800D0433F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D583D12ACB644800D0433F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5D583D72ACB644800D0433F /* CuckooSwiftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuckooSwiftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D583DB2ACB644800D0433F /* CuckooSwiftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooSwiftTestTests.swift; sourceTree = "<group>"; };
-		F5D583E12ACB644800D0433F /* CuckooSwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuckooSwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D583E52ACB644800D0433F /* CuckooSwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooSwiftTestUITests.swift; sourceTree = "<group>"; };
-		F5D583E72ACB644800D0433F /* CuckooSwiftTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooSwiftTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5D583DB2ACB644800D0433F /* ObservableServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C20E082ACB65CB00A8E558 /* RxSwift in Frameworks */,
-				F5C20DFE2ACB650200A8E558 /* Cuckoo in Frameworks */,
-				F5C20E012ACB651700A8E558 /* Nimble in Frameworks */,
+				F5C20E0E2ACB679900A8E558 /* Resolver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,13 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D583DE2ACB644800D0433F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F5C20E162ACB6A9B00A8E558 /* RxSwift in Frameworks */,
+				F5C20E1C2ACB6AE900A8E558 /* Nimble in Frameworks */,
+				F5C20E142ACB6A8B00A8E558 /* Resolver in Frameworks */,
+				F5C20E192ACB6AB900A8E558 /* Cuckoo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,13 +79,20 @@
 			path = SomeService;
 			sourceTree = "<group>";
 		};
+		F5C20E122ACB6A8B00A8E558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5D583BE2ACB644700D0433F = {
 			isa = PBXGroup;
 			children = (
 				F5D583C92ACB644700D0433F /* CuckooSwiftTest */,
 				F5D583DA2ACB644800D0433F /* CuckooSwiftTestTests */,
-				F5D583E42ACB644800D0433F /* CuckooSwiftTestUITests */,
 				F5D583C82ACB644700D0433F /* Products */,
+				F5C20E122ACB6A8B00A8E558 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +101,6 @@
 			children = (
 				F5D583C72ACB644700D0433F /* CuckooSwiftTest.app */,
 				F5D583D72ACB644800D0433F /* CuckooSwiftTestTests.xctest */,
-				F5D583E12ACB644800D0433F /* CuckooSwiftTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +111,7 @@
 				F5C20E032ACB654600A8E558 /* SomeService */,
 				F5D583CA2ACB644700D0433F /* CuckooSwiftTestApp.swift */,
 				F5D583CC2ACB644700D0433F /* ContentView.swift */,
+				F5C20E0F2ACB67D900A8E558 /* Injector.swift */,
 				F5D583CE2ACB644800D0433F /* Assets.xcassets */,
 				F5D583D02ACB644800D0433F /* Preview Content */,
 			);
@@ -133,18 +129,9 @@
 		F5D583DA2ACB644800D0433F /* CuckooSwiftTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				F5D583DB2ACB644800D0433F /* CuckooSwiftTestTests.swift */,
+				F5D583DB2ACB644800D0433F /* ObservableServiceTests.swift */,
 			);
 			path = CuckooSwiftTestTests;
-			sourceTree = "<group>";
-		};
-		F5D583E42ACB644800D0433F /* CuckooSwiftTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F5D583E52ACB644800D0433F /* CuckooSwiftTestUITests.swift */,
-				F5D583E72ACB644800D0433F /* CuckooSwiftTestUITestsLaunchTests.swift */,
-			);
-			path = CuckooSwiftTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +151,8 @@
 			);
 			name = CuckooSwiftTest;
 			packageProductDependencies = (
-				F5C20DFD2ACB650200A8E558 /* Cuckoo */,
-				F5C20E002ACB651700A8E558 /* Nimble */,
 				F5C20E072ACB65CB00A8E558 /* RxSwift */,
+				F5C20E0D2ACB679900A8E558 /* Resolver */,
 			);
 			productName = CuckooSwiftTest;
 			productReference = F5D583C72ACB644700D0433F /* CuckooSwiftTest.app */;
@@ -176,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5D583EE2ACB644800D0433F /* Build configuration list for PBXNativeTarget "CuckooSwiftTestTests" */;
 			buildPhases = (
+				F5C20E112ACB6A1700A8E558 /* ShellScript */,
 				F5D583D32ACB644800D0433F /* Sources */,
 				F5D583D42ACB644800D0433F /* Frameworks */,
 				F5D583D52ACB644800D0433F /* Resources */,
@@ -186,27 +173,15 @@
 				F5D583D92ACB644800D0433F /* PBXTargetDependency */,
 			);
 			name = CuckooSwiftTestTests;
+			packageProductDependencies = (
+				F5C20E132ACB6A8B00A8E558 /* Resolver */,
+				F5C20E152ACB6A9B00A8E558 /* RxSwift */,
+				F5C20E182ACB6AB900A8E558 /* Cuckoo */,
+				F5C20E1B2ACB6AE900A8E558 /* Nimble */,
+			);
 			productName = CuckooSwiftTestTests;
 			productReference = F5D583D72ACB644800D0433F /* CuckooSwiftTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F5D583E02ACB644800D0433F /* CuckooSwiftTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5D583F12ACB644800D0433F /* Build configuration list for PBXNativeTarget "CuckooSwiftTestUITests" */;
-			buildPhases = (
-				F5D583DD2ACB644800D0433F /* Sources */,
-				F5D583DE2ACB644800D0433F /* Frameworks */,
-				F5D583DF2ACB644800D0433F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F5D583E32ACB644800D0433F /* PBXTargetDependency */,
-			);
-			name = CuckooSwiftTestUITests;
-			productName = CuckooSwiftTestUITests;
-			productReference = F5D583E12ACB644800D0433F /* CuckooSwiftTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -225,10 +200,6 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = F5D583C62ACB644700D0433F;
 					};
-					F5D583E02ACB644800D0433F = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = F5D583C62ACB644700D0433F;
-					};
 				};
 			};
 			buildConfigurationList = F5D583C22ACB644700D0433F /* Build configuration list for PBXProject "CuckooSwiftTest" */;
@@ -241,9 +212,10 @@
 			);
 			mainGroup = F5D583BE2ACB644700D0433F;
 			packageReferences = (
-				F5C20DFC2ACB650200A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */,
-				F5C20DFF2ACB651700A8E558 /* XCRemoteSwiftPackageReference "Nimble" */,
 				F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F5C20E0C2ACB679900A8E558 /* XCRemoteSwiftPackageReference "Resolver" */,
+				F5C20E172ACB6AB900A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */,
+				F5C20E1A2ACB6AE900A8E558 /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = F5D583C82ACB644700D0433F /* Products */;
 			projectDirPath = "";
@@ -251,7 +223,6 @@
 			targets = (
 				F5D583C62ACB644700D0433F /* CuckooSwiftTest */,
 				F5D583D62ACB644800D0433F /* CuckooSwiftTestTests */,
-				F5D583E02ACB644800D0433F /* CuckooSwiftTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,20 +244,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D583DF2ACB644800D0433F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5C20E112ACB6A1700A8E558 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $ACTION == \"indexbuild\" ]; then\n  echo \"Not running Cuckoo generator during indexing.\"\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  echo \"Not running Cuckoo generator during preview builds.\"\n  exit 0\nfi\n\n# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PROJECT_DIR}/run\" --download generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/SomeService/IObservableService.swift\"\n\n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5D583C32ACB644700D0433F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C20E102ACB67D900A8E558 /* Injector.swift in Sources */,
 				F5C20E0A2ACB65DA00A8E558 /* ObservableService.swift in Sources */,
 				F5C20E052ACB656000A8E558 /* IObservableService.swift in Sources */,
 				F5D583CD2ACB644700D0433F /* ContentView.swift in Sources */,
@@ -298,16 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D583DC2ACB644800D0433F /* CuckooSwiftTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D583DD2ACB644800D0433F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5D583E82ACB644800D0433F /* CuckooSwiftTestUITestsLaunchTests.swift in Sources */,
-				F5D583E62ACB644800D0433F /* CuckooSwiftTestUITests.swift in Sources */,
+				F5D583DC2ACB644800D0433F /* ObservableServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,11 +294,6 @@
 			isa = PBXTargetDependency;
 			target = F5D583C62ACB644700D0433F /* CuckooSwiftTest */;
 			targetProxy = F5D583D82ACB644800D0433F /* PBXContainerItemProxy */;
-		};
-		F5D583E32ACB644800D0433F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F5D583C62ACB644700D0433F /* CuckooSwiftTest */;
-			targetProxy = F5D583E22ACB644800D0433F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,6 +427,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CuckooSwiftTest/Preview Content\"";
 				DEVELOPMENT_TEAM = CL6KSN5R2Z;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -485,6 +457,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CuckooSwiftTest/Preview Content\"";
 				DEVELOPMENT_TEAM = CL6KSN5R2Z;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -512,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CL6KSN5R2Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -532,6 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CL6KSN5R2Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -541,42 +516,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuckooSwiftTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CuckooSwiftTest";
-			};
-			name = Release;
-		};
-		F5D583F22ACB644800D0433F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CL6KSN5R2Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.fraune.CuckooSwiftTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CuckooSwiftTest;
-			};
-			name = Debug;
-		};
-		F5D583F32ACB644800D0433F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CL6KSN5R2Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.fraune.CuckooSwiftTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CuckooSwiftTest;
 			};
 			name = Release;
 		};
@@ -610,34 +549,9 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5D583F12ACB644800D0433F /* Build configuration list for PBXNativeTarget "CuckooSwiftTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5D583F22ACB644800D0433F /* Debug */,
-				F5D583F32ACB644800D0433F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F5C20DFC2ACB650200A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Brightify/Cuckoo.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.10.3;
-			};
-		};
-		F5C20DFF2ACB651700A8E558 /* XCRemoteSwiftPackageReference "Nimble" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Nimble.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 12.3.0;
-			};
-		};
 		F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
@@ -646,23 +560,62 @@
 				minimumVersion = 6.6.0;
 			};
 		};
+		F5C20E0C2ACB679900A8E558 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		F5C20E172ACB6AB900A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Brightify/Cuckoo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.3;
+			};
+		};
+		F5C20E1A2ACB6AE900A8E558 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F5C20DFD2ACB650200A8E558 /* Cuckoo */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F5C20DFC2ACB650200A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */;
-			productName = Cuckoo;
-		};
-		F5C20E002ACB651700A8E558 /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F5C20DFF2ACB651700A8E558 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
 		F5C20E072ACB65CB00A8E558 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		F5C20E0D2ACB679900A8E558 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20E0C2ACB679900A8E558 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		F5C20E132ACB6A8B00A8E558 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20E0C2ACB679900A8E558 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		F5C20E152ACB6A9B00A8E558 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		F5C20E182ACB6AB900A8E558 /* Cuckoo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20E172ACB6AB900A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */;
+			productName = Cuckoo;
+		};
+		F5C20E1B2ACB6AE900A8E558 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20E1A2ACB6AE900A8E558 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

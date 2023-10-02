@@ -9,9 +9,13 @@ import Foundation
 import RxSwift
 
 class ObservableService: IObservableService {
-    var someValue: RxSwift.Observable<String> {
-        get {
-            Observable.just("Hello")
-        }
+//    var someStream: RxSwift.Observable<String> {
+//        get {
+//            Observable.just("Hello")
+//        }
+//    }
+    
+    var someString: String {
+        "Test"
     }
 }
