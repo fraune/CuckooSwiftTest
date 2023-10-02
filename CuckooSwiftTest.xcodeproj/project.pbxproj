@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5C20DFE2ACB650200A8E558 /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20DFD2ACB650200A8E558 /* Cuckoo */; };
+		F5C20E012ACB651700A8E558 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E002ACB651700A8E558 /* Nimble */; };
+		F5C20E052ACB656000A8E558 /* IObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E042ACB656000A8E558 /* IObservableService.swift */; };
+		F5C20E082ACB65CB00A8E558 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5C20E072ACB65CB00A8E558 /* RxSwift */; };
+		F5C20E0A2ACB65DA00A8E558 /* ObservableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C20E092ACB65DA00A8E558 /* ObservableService.swift */; };
 		F5D583CB2ACB644700D0433F /* CuckooSwiftTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583CA2ACB644700D0433F /* CuckooSwiftTestApp.swift */; };
 		F5D583CD2ACB644700D0433F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D583CC2ACB644700D0433F /* ContentView.swift */; };
 		F5D583CF2ACB644800D0433F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D583CE2ACB644800D0433F /* Assets.xcassets */; };
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5C20E042ACB656000A8E558 /* IObservableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IObservableService.swift; sourceTree = "<group>"; };
+		F5C20E092ACB65DA00A8E558 /* ObservableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableService.swift; sourceTree = "<group>"; };
 		F5D583C72ACB644700D0433F /* CuckooSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuckooSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D583CA2ACB644700D0433F /* CuckooSwiftTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooSwiftTestApp.swift; sourceTree = "<group>"; };
 		F5D583CC2ACB644700D0433F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C20E082ACB65CB00A8E558 /* RxSwift in Frameworks */,
+				F5C20DFE2ACB650200A8E558 /* Cuckoo in Frameworks */,
+				F5C20E012ACB651700A8E558 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5C20E032ACB654600A8E558 /* SomeService */ = {
+			isa = PBXGroup;
+			children = (
+				F5C20E042ACB656000A8E558 /* IObservableService.swift */,
+				F5C20E092ACB65DA00A8E558 /* ObservableService.swift */,
+			);
+			path = SomeService;
+			sourceTree = "<group>";
+		};
 		F5D583BE2ACB644700D0433F = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +113,7 @@
 		F5D583C92ACB644700D0433F /* CuckooSwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				F5C20E032ACB654600A8E558 /* SomeService */,
 				F5D583CA2ACB644700D0433F /* CuckooSwiftTestApp.swift */,
 				F5D583CC2ACB644700D0433F /* ContentView.swift */,
 				F5D583CE2ACB644800D0433F /* Assets.xcassets */,
@@ -143,6 +163,11 @@
 			dependencies = (
 			);
 			name = CuckooSwiftTest;
+			packageProductDependencies = (
+				F5C20DFD2ACB650200A8E558 /* Cuckoo */,
+				F5C20E002ACB651700A8E558 /* Nimble */,
+				F5C20E072ACB65CB00A8E558 /* RxSwift */,
+			);
 			productName = CuckooSwiftTest;
 			productReference = F5D583C72ACB644700D0433F /* CuckooSwiftTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +240,11 @@
 				Base,
 			);
 			mainGroup = F5D583BE2ACB644700D0433F;
+			packageReferences = (
+				F5C20DFC2ACB650200A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */,
+				F5C20DFF2ACB651700A8E558 /* XCRemoteSwiftPackageReference "Nimble" */,
+				F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F5D583C82ACB644700D0433F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C20E0A2ACB65DA00A8E558 /* ObservableService.swift in Sources */,
+				F5C20E052ACB656000A8E558 /* IObservableService.swift in Sources */,
 				F5D583CD2ACB644700D0433F /* ContentView.swift in Sources */,
 				F5D583CB2ACB644700D0433F /* CuckooSwiftTestApp.swift in Sources */,
 			);
@@ -588,6 +620,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5C20DFC2ACB650200A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Brightify/Cuckoo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.3;
+			};
+		};
+		F5C20DFF2ACB651700A8E558 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+		F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5C20DFD2ACB650200A8E558 /* Cuckoo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20DFC2ACB650200A8E558 /* XCRemoteSwiftPackageReference "Cuckoo" */;
+			productName = Cuckoo;
+		};
+		F5C20E002ACB651700A8E558 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20DFF2ACB651700A8E558 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		F5C20E072ACB65CB00A8E558 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C20E062ACB65CB00A8E558 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5D583BF2ACB644700D0433F /* Project object */;
 }
